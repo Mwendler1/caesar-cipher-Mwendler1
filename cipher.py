@@ -1,16 +1,16 @@
 import string
 
 text = input("Please Enter a Statement to Be Encrypted: ")
-text = text.upper()
+text = text.lower()
 shift = 5
 
 
-alpha = string.ascii_uppercase
+alpha = string.ascii_lowercase
 shifted = alpha[shift:] + alpha[:shift]
 table = str.maketrans(alpha, shifted)
 
 encrypted = text.translate(table)
 
-print(text)
-print(shift)
+print("The Encrypted Statement is: ")
+
 print(encrypted)
