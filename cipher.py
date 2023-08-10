@@ -11,4 +11,6 @@ table = str.maketrans(alpha, shifted)
 
 encrypted = text.translate(table)
 
+print(text)
+print(shift)
 print(encrypted)
