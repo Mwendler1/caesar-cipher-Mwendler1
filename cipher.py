@@ -1,5 +1,3 @@
-#Caesar Cipher
-
 import string
 
 text = input("Please Enter a Statement to Be Encrypted: ")
